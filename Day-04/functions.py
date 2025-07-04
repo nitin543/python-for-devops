@@ -1,19 +1,16 @@
-a=10
-b=5
+def addition(a,c):
+    add = a+c
+    return add
 
-def addition():
-    add = a+b
-    print(add)
-
-def subtraction():
+def subtraction(a,b):
     sub = a-b
-    print(sub)
+    return sub
 
-def multiplication():
+def multiplication(a,b):
     mul = a*b
-    print(mul)
+    return mul
 
 
-addition()
-subtraction()
-multiplication()
+print(addition(10,10))
+print(subtraction(10,5))
+print(multiplication(10,5))
